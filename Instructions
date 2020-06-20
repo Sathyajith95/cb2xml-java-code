@@ -1,0 +1,13 @@
+How to Use cb2xml jar to generate XML output: -
+
+	-Downlaod jar file
+	-open CLI and run the below command with the location of jar file, Cobol Copybook file and output file locations.
+
+		java -jar C:/Users/Sathya/Documents/Cb2XML/lib/cb2xml.jar -cobol C:/Users/Sathya/Desktop/Copybook -indentXml -xml C:/Users/Sathya/Desktop/Copybook-xml.xml
+		
+How to convert the XML to desired copybook layout for File Compare Tool: -
+
+	-In the Python script(readXML.py) point to the cb2xml generated XML file.
+	-After running the script a output file with File Compare tool required copybook layout will be generated.
+
+
